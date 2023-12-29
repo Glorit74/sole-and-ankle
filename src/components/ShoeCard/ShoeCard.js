@@ -54,6 +54,7 @@ const ShoeCard = ({
             style={{
               textDecoration:
                 variant === "on-sale" ? "line-through" : undefined,
+				color: variant === "on-sale" ? COLORS.gray[700] : "black"
             }}
           >
             {formatPrice(price)}
